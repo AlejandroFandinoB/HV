@@ -1,0 +1,195 @@
+
+
+/* ================ acerca de mi =============== */
+.hidden{
+    display: none;
+}
+.main__content{
+    padding-left: 270px;
+    padding-right: 30px;
+}
+.section{
+    /* background-color: slateblue; */
+    min-height: 100vh;
+}
+.about{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    margin: auto;
+}
+
+.container{
+        max-width: 1100px;
+        width: 100%;
+        /* background-color: red; */
+        margin: auto;
+    }
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15px;
+        margin-right: 15px; 
+        /* background-color: red; */
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    /* fila 1 */
+        .section__title{
+            /* background-color: var(--four-color); */
+            padding: 0 15px;
+            flex: 0 0 100%;
+            max-width:100%
+        }
+            .section__title h2{
+                color: #1a1a1a;
+                font-size: var(--h3-font-size);
+                font-weight: var(--font-bold);
+                /* border-bottom: 8px solid var(--first-color); */
+                position: relative;
+            }
+            .section__title h2::before{
+                content: '';
+                height: 4px;
+                width: 150px;
+                position: absolute;
+                top:100%;
+                left: 0;
+                background-color: var(--first-color);
+                
+            }
+            
+
+    /* fila 2  */
+        .about .about__content{
+            /* background-color: rebeccapurple; */
+            flex:0 0 100%;
+            padding:20px;
+            max-width: 100%;
+        }
+            .about .about__content .about__text{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+                .about .about__content .about__text h3{
+                    font-size: var(--h3-font-size);
+                    color: #1a1a1a;
+                    font-weight: var(--font-bold);
+                    padding-bottom: 5px;
+                    padding-top:15px
+                }   
+                .about .about__content .about__text p{
+                    font-size: var(--normal-font-size);
+                    color: #1a1a1a;
+                    
+                }    
+    /* fila 3 */
+        /* Columna 1 */
+        .cv__info{
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 20px;
+            text-align: center;
+        }
+            .cv__info > img{
+                width: 250px;
+                height: 200px;
+                display: block;
+                margin: auto;
+                padding-bottom: 15px;
+            }
+            .cv__info .btn{
+                display: inline-block;
+                background-color: var(--first-color);
+                border-radius: 20px;
+                padding:10px;
+                color: var(--second-color);
+                font-size: 16px;
+                text-align: center;
+                transition: all 0.3s ease;
+                white-space: nowrap;
+            }
+                .cv__info .btn:hover{
+                    background-color: var(--four-color);
+                    color: var(--first-color);
+                    transform: scale(1.05);
+                }
+        
+        /* Columna 2 */
+        .skills{
+            /* background-color: royalblue; */
+            flex: 0 0 50%;
+            height: 100%;
+            max-width: 50%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+            .skill__list{
+                /* flex: 0 0 50%; */
+                width: 50%;
+                /* background-color: red; */
+                padding-right: 10px;
+            }
+            .prueba{
+                display: inherit;
+            }
+                .skills .skills__title{
+                    padding-bottom: 10px;
+                }
+                .skills .skills__title h3{
+                    color: #1a1a1a;
+                    font-size: 16px;
+                    font-weight: var(--font-bold);
+                    /* background-color: violet; */
+                    border-bottom: 2px solid #272343;
+                    
+                    justify-content: space-between;
+                    display: inline-block;
+                    /* ma-right: 10px; */
+                }
+                    .skill__list .skill__item{
+                        /* background-color: seashell; */
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        padding-bottom: 20px;
+                        
+                    }
+                        .skill__list .skill__item > h5{
+                            display: inline-block;
+                            /* background-color: rebeccapurple; */
+                            font-size: 15px;
+                            font-weight: var(--font-bold);
+                            color: #1a1a1a;
+                            margin: 0 ;
+
+                        }
+                        .skill__list .skill__item .progress{
+                            background-color: var(--first-color-light);
+                            height: 8px;
+                            width: 100%;
+                            /* overflow: hidden; */
+                            position: relative;
+                            border-radius: 4px;
+                        }
+                            .skill__list .skill__item .progress .progress-in{
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                height: 100%;
+                                background-color: #272343;
+                                
+                            }
+
+                            .skill__list .skill__item .skill-percent{
+                                    /* display: none; */
+                                    /* background-color: darkcyan; */
+                                    line-height:50px;
+                                    position: absolute;
+                                    right: 0;
+                                    top: -40px;
+                                    font-size: 15px;
+                                    
+                                    
+                                }
+/* ================ fin acerca de mi ===========*/

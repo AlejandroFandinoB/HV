@@ -1,0 +1,39 @@
+.container .intro img {
+    border: 8px solid #4A235A;
+}
+
+.cv__info .btn, .btn__content .btn,
+.blog__item .blog-inner-img .blog-inner-date,
+.skill__list .skill__item .progress .progress-in,
+.section__title h2::before,
+.social__link .link{
+    background-color: #4A235A;
+}
+
+.portafolio .portafolio__filtro button.active,
+.blog-inner-info .blog-tags a,
+.contact__item .contact__item-inner .icon .fa,
+.contact__item .contact__item-inner .icon .fab{
+    color: #4A235A;
+    border-color: #4A235A;
+}
+
+.skills .skills__title h3{
+    border-bottom: 2px solid #4a235a;
+}
+
+
+
+/* item de la página procesamiento (nlp) */
+.blog-inner-info .blog-tags a{
+    background-color: #4a235a;
+    color: #ffffff;
+}
+
+.nlp .item .item__btn a{
+    background-color:#4a235a;
+}
+.nlp .item .item__btn a:hover{
+    background-color: #BAE8E8;
+    color: #1a1a1a;
+}

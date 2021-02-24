@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/pg/procesamientoLenguajeNatural.css">
+    <!-- principales -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/colores/switcher.css">
+
+    <link rel="stylesheet" class="alternative-style" title="azul" href="../css/colores/azul.css" disabled>
+    <link rel="stylesheet" class="alternative-style" title="morado" href="../css/colores/morado.css" disabled>
+    <link rel="stylesheet" class="alternative-style" title="rojo" href="../css/colores/rojo.css" disabled>
+    <link rel="stylesheet" class="alternative-style" title="verde" href="../css/colores/verde.css" disabled>
+    <link rel="stylesheet" href="../css/colores/switcher.css">
+
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <title>NLP</title>
+</head>
+
+<body>
+
+    <header class="l-header aside">
+        <nav class="nav">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav__logo">
+                <a href="#">
+                    <img src="../img/Logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="../../index.html" class="nav__link active">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../../index.html #acerca" class="nav__link">Acerca de mi</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../../index.html #portafolio" class="nav__link">Portafolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../../index.html #blog" class="nav__link">Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../../index.html #contact" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="copyright__text">
+                &copy; 2020 Derechos Reservados
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="nlp section">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="nlp__title">
+                        <h1>Procesamiento de lenguaje natural (PLN)</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="nlp__contenido">
+                        <h3>¿Qué es PLN o NLP?</h3>
+                        <p> El procesamiento del lenguaje natural (PNL) o natural language processing (NLP) es un campo
+                            en la intersección de la informática,
+                            inteligencia artificial y lingüística. Se trata de construir sistemas que puedan procesar
+                            y entender el lenguaje humano. (Vajjal et al. , 2020).</p>
+                        <p>Por lo tanto, cuando nosotros le hablamos a un asistente de voz lo hacemos con nuestro
+                            lenguaje humano pero las computadoras solo procesan datos binarios, y esta es la razón
+                            del porque nació NLP.
+                        </p>
+                        <p>En está página se encuentran las prácticas y análisis de caso aplicados con
+                            NLP como por ejemplo: análisis de sentimientos, entre otros. </p>
+                    </div>
+                    <div class="row">
+                        <div class="repositorios">
+                            <div class="items">
+                                <div class="item">
+                                    <h3>Adquisición de textos</h3>
+                                    <div class="item__content">
+                                        <h5> Parte 1: </h5>
+                                        <ul>
+                                            <li>- Descomprimir el archivo .zip de los poemas</li>
+                                            <li>- Leer cada uno de sus archivos</li>
+                                            <li>- Responder: ¿Cuál archivo tiene el mayor número de palabras?</li>
+                                        </ul>
+                                        <h5> Parte 2:</h5>
+                                        <ul>
+                                            <li> - Hacer Web Scraping de 10 biografías en Wikipedia (en búcle) </li>
+                                            <li> - Obtener el encabezado de cada biografía</li>
+                                            <li> - Obtener todos los contenidos y etiquetas de título asociados a los
+                                                links del primer párrafo </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item__btn">
+                                        <a href="https://nbviewer.jupyter.org/github/AlejandroFandinoB/Adquisicion_de_textos/blob/master/AdquisicionDeTextos.ipynb">Link de repositorio</a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h3>Pre-procesamiento de textos</h3>
+                                    <div class="item__content">
+                                        <h5> Parte 1: </h5>
+                                        <ul>
+                                            <li>- Leer el archivo UNA_SOLITARIA_VOZ_HUMANA.txt con with open</li>
+                                            <li>- Convertir a minúsculas</li>
+                                            <li>- Conservar sólo palabras</li>
+                                            <li>- Tokenizar</li>
+                                        </ul>
+                                        <h5> Parte 2:</h5>
+                                        <ul>
+                                            <li>- Quitar palabras vacias </li>
+                                            <li>-¿Cuáles son las 10 palabras no vacias más usadas?</li>
+                                        </ul>
+                                        <h5> Parte 3:</h5>
+                                        <ul>
+                                            <li>- Stemming del documento</li>
+                                            <li>- ¿Cuáles son las 10 raíces más usadas?</li>
+                                        </ul>
+                                        <h5> Parte 4:</h5>
+                                        <ul>
+                                            <li>- Contar cuántas ocurrencias hay por cada parte de la oración</li>
+                                        </ul>
+                                    </div>
+                                    <div class="item__btn">
+                                        <a href="https://nbviewer.jupyter.org/github/AlejandroFandinoB/Preprocesamiento_de_textos/blob/master/Pre-procesamientoDeTextos.ipynb">Link de repositorio</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="item">
+                                    <h3>Feature Engineering</h3>
+                                    <div class="item__content">
+                                        <h5>Parte 1: Pre-Procesamiento</h5>
+                                        <ul>
+                                            <li>- Leer el archivo dialogos.csv usando pandas</li>
+                                            <li>- Crear una nueva columna con el texto en minúscula, sin caracteres
+                                                especiales
+                                                ni números y sin palabras vacias</li>
+                                        </ul>
+
+                                        <h5>Parte 2: Representación vectorial </h5>
+                                        <ul>
+                                            <li>- Crear una bolsa de palabras (BoW) del corpus usando la columna
+                                                pre-procesada
+                                            </li>
+                                            <li>- ¿Cuántas palabras hay en el vocabulario? (Usando la función de
+                                                sklearn)
+                                            </li>
+                                        </ul>
+                                        <h5>Parte 3: </h5>
+                                        <ul>
+                                            <li>- ¿En qué casos es buena idea tomar en la cuenta la frecuencia de las
+                                                palabras
+                                                para la bolsa de palabras?</li>
+                                            <li>- ¿Cuándo es una mejor idea usar una bolsa de n-gramas en vez de una
+                                                bolsa de
+                                                palabras?</li>
+                                        </ul>
+                                    </div>
+                                    <div class="item__btn">
+                                        <a href="https://nbviewer.jupyter.org/github/AlejandroFandinoB/Feature_engineering/blob/master/Feature%20Engineering.ipynb">Link de repositorio</a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h3>TF-IDF</h3>
+                                    <div class="item__content">
+                                        <h5> Parte 1: pre-procesamiento</h5>
+                                        <ul>
+                                            <li>- Leer el archivo Princesas.csv usando pandas y crear una nueva columna
+                                                con el texto en minúscula, sin caracteres especiales ni números, sin
+                                                palabras vacias y hacer stemming de las palabras</li>
+                                        </ul>
+
+                                        <h5> Parte 2:TF-IDF </h5>
+                                        <ul>
+                                            <li>- Crear la matriz TF-IDF </li>
+                                        </ul>
+                                        <h5> Parte 3: distancia del coseno</h5>
+                                        <ul>
+                                            <li>- Calcular la distancia del coseno entre cada una de las princesas</li>
+                                            <li>- ¿Cuáles son las princesas más parecidas?</li>
+                                            <li>- ¿Cuáles son las princesas más diferentes?</li>
+                                        </ul>
+                                    </div>
+                                    <div class="item__btn">
+                                        <a href="https://nbviewer.jupyter.org/github/AlejandroFandinoB/TF-IDF/blob/master/TF-IDF.ipynb">Link de repositorio</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="item">
+                                    <h3> Word2Vec </h3>
+                                    <div class="item__content">
+                                        <h5>Expectativas</h5>
+                                        <ul>
+                                            <li>- Uso de Word2Vec</li>
+                                            <h5>Preguntas:</h5>
+                                            <ul>
+                                                <li>¿Su modelo da buenos resultados? ¿Por qué sí o por qué no?</li>
+                                                <li>¿Qué problemas encontró al realizar este taller?</li>
+                                            </ul>
+                                            <h5>Algunas ideas:</h5>
+                                            <ul>
+                                                <li> - Hacer más visualizaciones </li>
+                                                <li> - Jugar con los parámetros de la funcion word2vec de gensim </li>
+                                                <li> - Usar alguna función de gensim que no hayamos visto en clase
+                                                (https://radimrehurek.com/gensim/models/word2vec.html#module-gensim.models.word2vec) </li>
+                                                <li> - Comparar palabras del inglés y el español </li>
+                                                <li> - Encontrar analogías y similutdes interesantes </li>
+
+                                            </ul>
+                                        </ul>
+                                    </div>
+                                    <div class="item__btn">
+                                        <a href="https://nbviewer.jupyter.org/github/AlejandroFandinoB/Word2Vec/blob/master/Word2Vec.ipynb">Link de repositorio</a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h3> Clasificación y agrupación </h3>
+                                    <div class="item__content">
+                                        <h5>Parte 1: Clasificación</h5>
+                                        <ul>
+                                            <li>- Dividir el conjunto de datos en entrenamiento y prueba
+                                            </li>
+                                            <li>- Hacer pre-procesamiento del texto
+                                            </li>
+                                            <li>- Entrenar el modelo
+                                            </li>
+                                            <li>- Métricas de evaluación
+                                            </li>
+                                            <li>- Matriz de confusión
+                                            </li>
+                                            <li>- Términos más importantes de cada categoría
+                                            </li>
+                                        </ul>
+
+                                        <h5>Parte 2: Agrupación </h5>
+                                        <ul>
+                                            <li>- Hacer pre-procesamiento del texto
+                                            </li>
+                                            <li>- Método del codo para determinar el k
+                                            </li>
+                                            <li>- Entrenar modelo con el k escogido
+                                            </li>
+                                            <li>- Visualización usando PCA
+                                            </li>
+                                        </ul>
+                                        <h5>Parte 3: Comparación </h5>
+                                        <ul>
+                                            <li>- Hacer predicción para estas dos frases de los dos modelos
+                                            </li>
+                                            <h5>Preguntas:</h5>
+                                            <ul>
+                                                <li>-- ¿A cuál modelo le fue mejor?</li>
+                                                <li>-- ¿Cuál modelo se demoró más en entrenar?</li>
+                                                <li>-- Según los resultados del K-Means, ¿cuál es la estructura
+                                                        latente de los datos?</li>
+                                            </ul>
+                                        </ul>
+                                    </div>
+                                    <div class="item__btn">
+                                        <a href="https://nbviewer.jupyter.org/github/AlejandroFandinoB/Clasificacion_agrupacion/blob/master/Clasificaci%C3%B3n%20y%20agrupaci%C3%B3n.ipynb">Link de repositorio</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="items">
+                                <div class="item">
+                                    <h3> Modelado de temas </h3>
+                                    <div class="item__content">
+                                        <ul>
+                                            <li>- Hacer pre-procesamiento del texto </li>
+                                            <li>- Modelo de LDA </li>
+                                            <li>- Visualización de LDA </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item__btn">
+                                        <a href="https://nbviewer.jupyter.org/github/AlejandroFandinoB/Modelado_de_temas/blob/master/Modelado%20de%20temas.ipynb">Link de repositorio</a>
+                                    </div>  
+                                </div>
+                                <div class="item">
+                                    <h3> Visualización </h3>
+                                    <div class="item__content">
+                                        <p>Nube de palabras con datos de las elecciones de 
+                                            Australia
+                                        </p>
+                                    </div>
+                                    <div class="item__btn">
+                                        <a href="https://nbviewer.jupyter.org/github/AlejandroFandinoB/Visualizacion_wordCloud/blob/master/Visualizacion.ipynb">Link de repositorio</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="item">
+                                    <h3> API de twitter </h3>
+                                    <div class="item__content">
+                                        <ul>
+                                            <li>- Extraer tuits </li>
+                                            <li>- Hacer una visualización sobre esos tuits </li>
+                                            
+                                        </ul>
+                                    </div>
+                                    <div class="item__btn">
+                                        <a href="https://nbviewer.jupyter.org/github/AlejandroFandinoB/Api_twitter/blob/master/Api_twitter.ipynb">Link de repositorio</a>
+                                    </div>  
+                                </div>
+                                <div class="item">
+                                    <h3> Análisis de sentimiento </h3>
+                                    <div class="item__content">
+                                        <h5>Parte 1: hacer análisis de sentimiento de los datos de la api de twitter</h5>
+                                        <ul>
+                                            <li>- Columna con el puntaje numérico del sentimiento</li>
+                                            <li>- Pueden usar cualquiera de las librerias vistas en clase</li>
+                                        </ul>
+                                        <h5>Parte 2:</h5>
+                                        <ul>
+                                            <li>¿Cuál es el tuit más positivo y más negativo?</li>
+                                        </ul>
+                                        <h5>Parte 3: ¿Cuántos tuits positivos/negativos hay en sus datos?</h5>
+                                        <ul>
+                                            <li>- Diagrama de barras de la pregunta 3</li>
+                                            <li>- Nubes de palabras por sentimiento</li>
+                                        </ul>
+                                    </div>
+                                    <div class="item__btn">
+                                        <a href="https://nbviewer.jupyter.org/github/AlejandroFandinoB/Analisis_de_sentimiento/blob/master/Analisis_sentimiento.ipynb">Link de repositorio</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="referencias">
+                        <h3>Referencias:</h3>
+                        Vajjala,S., Majumder, B., Gupta, A., Surana, H. (2020), <i>practical-natural-language-processing-real-world-systems, United State of
+                            America, O'Reilly.
+                        </i> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== switch de colores  ===== -->
+    <div class="switcher">
+        <div class="toggle-style-switcher">
+            <i class="fa fa-cog fa-spin"></i>
+        </div>
+        <h5>Colores</h5>
+        <ul>
+            <li><a href="#" title="azul" style="background-color:#2196f3" id="azul"
+                    onclick="setActiveStyle('azul')"></a></li>
+            <li><a href="#" title="morado" style="background-color:#4A235A" id="morado"
+                    onclick="setActiveStyle('morado')"></a></li>
+            <li><a href="#" title="rojo" style="background-color:#641E16" id="rojo"
+                    onclick="setActiveStyle('rojo')"></a></li>
+            <li><a href="#" title="verde" style="background-color:#145A32" id="verde"
+                    onclick="setActiveStyle('verde')"></a></li>
+        </ul>
+        <h5>Fondo</h5>
+        <div class="switch">
+            <span><i class="fas fa-sun"></i></span>
+            <span><i class="fas fa-moon"></i></span>
+        </div>
+    </div>
+
+
+
+    <!-- js -->
+    <script src="../js/main.js"></script>
+    <script src="../js/switch.js"></script>
+
+</body>
+
+</html>

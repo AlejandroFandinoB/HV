@@ -1,0 +1,235 @@
+@media (max-width:1199px){
+    
+    .l-main{
+        padding-left: 0;
+        padding-right: 30px;    
+    }
+    .main__content{
+        padding-left: 0;
+        padding-right: 30px;
+    }
+    .portafolio{
+        padding-left: 0;
+        padding-right: 30px;
+    }
+    .blog{
+        padding-left: 0;
+        padding-right: 30px;
+    }
+    .contacto{
+        padding-left: 0;
+        padding-right: 30px;
+    }
+    .home{
+        padding-left: 20px;
+    }
+    /* toggler */
+    .aside{
+        left: -270px;
+    }
+    /* abrir */
+    .aside.open{
+        left: 0;
+    }
+    .aside .nav__toggle{
+        display: flex;
+        top: 20px;
+        left: 20px;
+    }
+    .aside .nav__toggle.open{
+        left: 300px;
+    }
+
+}   
+
+@media (max-width:768px){
+    /* .section{
+        min-height: 100vh;
+    } */
+    .container{
+        padding-top: 200px;
+    }
+    .container .intro > h1{
+        font-size: 25px;
+    }
+    .container .intro p{
+        font-size: 20px;
+    }
+    .cv__info .btn,
+    .portafolio .portafolio__item .portafolio-inner-info h4{
+        font-size: 20px;
+    }
+    .skill__list .skill__item > h5{
+        font-size: 20px;
+    }
+    .social__link .link{
+        height: 45px;
+        width: 45px;
+    }
+    .intro .social__link .link i{
+        font-size: 25px;
+        padding:10px;
+    }
+
+    .container .intro > h1{
+        font-size: 1.5rem;
+    }
+    .container .intro p{
+        font-size: 1.2rem;
+    }
+    .cv__info{
+        flex:0 0 100%;
+        max-width: 100%;
+    }
+    .skills{
+        flex:0 0 100%;
+        max-width: 100%;
+    }
+    .skills .skills__title h3{
+        font-size: 1.5rem;
+    }
+
+    .cont-form .cl-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .formulario{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .portafolio .portafolio__item,
+    .blog .blog__item{
+        flex:0 0 50%;
+        max-width: 50%;
+    }
+    .contact__item{
+        flex:0 0 100%;
+        max-width: 100%; 
+        margin-bottom: 15px;
+    }
+    .cv__info .btn:hover{
+        background-color: #BAE8E8;
+    }
+    
+    
+    /* about */
+    .about .about__content .about__text h3{
+        font-size: 1.5rem;
+    }
+    .about .about__content .about__text p{
+        font-size: 1.2rem;
+    }
+    .portafolio .portafolio__filtro button{
+        font-size: 1.2rem;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:575px){
+    .home{
+        max-height: 100vh;
+    }
+    .section{
+        min-height: 100vh;
+    }
+    .container .intro > h1{
+        font-size: 25px;
+    }
+    .container .intro p{
+        font-size: 20px;
+    }
+    .social__link .link{
+        height: 45px;
+        width: 45px;
+    }
+    .intro .social__link .link i{
+        font-size: 25px;
+    }
+    /* about */
+    .prueba{
+        flex-direction: column;
+    }
+    .skills .skill__list{
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .skills .skills__title h3 {
+        font-size: 1.5rem;
+    }
+    .about .about__content .about__text h3{
+        font-size: 25px;
+        text-align: center;
+    }
+    .about .about__content .about__text p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    /* portafolio */
+    .section__title h2{
+        font-size: 1.5rem;
+    }
+    .portafolio .portafolio__filtro{
+        /* justify-content: center; */
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    
+    .portafolio .portafolio__filtro button{
+        font-size: 1rem;
+    }
+
+    /* blog */
+    .blog-inner-info .blog-info-title{
+        font-size: 1.4rem;
+    }
+    .blog-inner-info .blog-description{
+        font-size: 1.2rem;
+    }
+
+    /* contacto */
+    .contacto .contact__item,
+    .portafolio .portafolio__item,
+    .blog .blog__item{
+        flex:0 0 100%;
+        max-width: 100%;
+    }
+    .cont-form{
+        flex-direction: column;
+    }
+    .cont-form .cl-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .btn-content{
+        display: flex;
+        justify-content: center;
+    }
+    .contact__item .contact__item-inner .icon h4{
+        font-size: 1.5rem;
+    }    
+    .blog-inner-info .blog-tags{
+        flex: 0 0 100%;
+    }
+    
+    /* toggler */
+    .aside{
+        left: -270px;
+    }
+    /* abrir */
+    .aside.open{
+        left: 0;
+    }
+    .aside .nav__toggle{
+        display: flex;
+        top: 20px;
+        left: 20px;
+        
+    }
+    .aside .nav__toggle.open{
+        left: 200px;
+    }
+
+
+}
+

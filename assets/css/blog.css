@@ -1,0 +1,93 @@
+.section{
+    /* background-color: slateblue; */
+    min-height: 100vh;
+}
+
+.blog{
+    padding-left: 270px;
+    padding-right: 30px;
+}
+.blog__item{
+    /* background-color: red; */
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 20px;
+}
+.blog__item-inner{
+    /* background-color: red; */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.5);
+    border: 1px solid #1a1a1a;
+}
+    
+    .blog__item .blog-inner-img{
+        position: relative;
+        overflow: hidden;
+    }
+    .blog__item .blog-inner-img img{
+        width: 100%;
+        display: block;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    .blog__item .blog-inner-img:hover img{
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1) ;
+    }    
+
+        .blog__item .blog-inner-img .blog-inner-date{
+            background-color: #272343;
+            position: absolute;
+            padding: 4px 10px;
+            border-radius: 5px;
+            color: #ffffff;
+            font-weight: 600;
+            left: 15px;
+            bottom: 15px;
+        }
+    
+    .blog__item-inner .blog-inner-info{
+            padding:30px 15px;
+            /* background-color: red; */
+    }
+        .blog-inner-info .blog-info-title{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 10px;
+            color: #1a1a1a;
+            /* text-transform: capitalize; */
+            padding-bottom: 10px;
+            line-height: 20px;
+
+        }
+        .blog-inner-info .blog-description{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: justify;
+            padding-bottom: 25px;
+        }
+
+        .blog-tags{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        
+        .blog-inner-info .blog-tags a{
+                color: #fff;
+                display: inline-block;
+                border-radius: 5px;
+                padding:10px;
+                /* width: 100px; */
+                flex: 0 0 40%;
+                text-align: center;
+                font-size: 17px;
+                background-color: #272343;
+            }
+            .blog-inner-info .blog-tags a:hover{
+                    background-color: #BAE8E8;
+                    color: #1a1a1a;
+                }
+        
